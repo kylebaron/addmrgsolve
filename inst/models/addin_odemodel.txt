@@ -1,0 +1,15 @@
+code <- '
+$PARAM  CL = 1, V = 10, KA = 1.2
+
+$CMT GUT CENT
+
+$ODE
+dxdt_GUT = -KA*GUT;
+dxdt_CENT = KA*GUT - (CL/V)*CENT;
+
+$TABLE
+capture CP = CENT/V;
+'
+
+mod <- mcode("odemodel", code)
+

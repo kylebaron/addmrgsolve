@@ -1,0 +1,17 @@
+Package: addin
+Type: Package
+Version: 0.0.1
+Title: Addins for mrgsolve
+Authors@R: c(
+    person("Kyle T", "Baron", "", "kyleb@metrumrg.com", c("aut", "cre"))
+    )
+Maintainer: Kyle T Baron  <kyleb@metrumrg.com>
+URL: https://github.com/mrgsolve/addin
+BugReports: https://github.com/mrgsolve/addin
+Copyright: Kyle Baron 2018
+Description: Addins for Rstudio. 
+License: GPL (>=2)
+Suggests: rstudioapi
+LazyLoad: yes
+Encoding: UTF-8
+RoxygenNote: 6.1.1

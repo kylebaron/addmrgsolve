@@ -1,0 +1,11 @@
+code <- '
+$PARAM  CL = 1, V = 10, KA = 1.2
+
+$PKMODEL cmt = "GUT CENT", depot = TRUE
+
+$TABLE
+capture CP = CENT/V;
+'
+
+mod <- mcode("pkmodel", code)
+

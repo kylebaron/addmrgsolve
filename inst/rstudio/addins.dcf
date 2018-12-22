@@ -1,0 +1,10 @@
+Name: pkmodel
+Description: One compartment model in closed form
+Binding: addin_pkmodel
+Interactive: true
+
+Name: odemodel
+Description: One compartment model in closed form
+Binding: addin_odemodel
+Interactive: true
+
